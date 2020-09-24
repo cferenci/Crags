@@ -1,0 +1,15 @@
+<label>
+    Area Name:
+    <input type="text" [formControl]="name">
+  </label>
+  
+  
+  
+  <p>
+    Value: {{ name.value }}
+  </p>
+  
+  
+  <p>
+    <button class="btn btn-primary" (click)="updateName()">Update Name</button>
+  </p>
